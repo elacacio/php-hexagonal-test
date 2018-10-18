@@ -1,0 +1,7 @@
+index:
+    path: /api/houses
+    defaults: { _controller: infrastructure.house.controller::listAction }
+
+download:
+    path: /download/houses
+    defaults: { _controller: infrastructure.house.download.controller::downloadAction }

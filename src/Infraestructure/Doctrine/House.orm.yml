@@ -1,0 +1,24 @@
+App\Domain\House:
+    type: entity
+    table: house
+    id:
+        id:
+            type: integer
+            id: true
+            column: id
+    fields:
+        title:
+            type: string
+            length: 250
+        link:
+            type: string
+            length: 250
+            column: link
+        city:
+            type: string
+            length: 100
+            column: city
+        picture:
+            type: string
+            length: 250
+            column: url_picture
