@@ -8,8 +8,9 @@ Basic API and basic importer built by trying to apply DDD.
 ### Installation
 
 ```sh
-$ git clone https://github.com/elacacio/hexagonal-react.git
-$ cd backend
+$ mkdir your_directory
+$ cd your_directory
+$ git clone https://github.com/elacacio/hexagonal-react.git .
 $ composer install
 ```
 
