@@ -10,7 +10,7 @@ Basic API and basic importer built by trying to apply DDD.
 ```sh
 $ mkdir your_directory
 $ cd your_directory
-$ git clone https://github.com/elacacio/hexagonal-react.git .
+$ git clone https://github.com/elacacio/php-hexagonal-test .
 $ composer install
 ```
 
